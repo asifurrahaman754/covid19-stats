@@ -7,16 +7,15 @@ const RecoverValue = document.querySelector('.recovered .value');
 const RecoverNewValue = document.querySelector('.recovered .new-value');
 const deathValue = document.querySelector('.deaths .value');
 const deathNewValue = document.querySelector('.deaths .new-value');
-const chart = document.querySelector('#axes_line_chart');
+//const chart = document.querySelector('#axes_line_chart');
 
-//app data variables
+let country_name, user_country;
 
-//get users country code
-let country_name = geoplugin_countryName();
-let user_country;
+country_name = "Bangladesh";
  country_list.forEach(country => {
 	 if(country.name == country_name ){
 		 user_country = country_name;
+		 
 	 }
  });
 

@@ -97,7 +97,13 @@ main{
 }
 
 .change-country{
+    margin: 20px 0px 30px 0px;
     cursor: pointer;
+    background: #89be49;
+    text-align: center;
+    padding: 10px 0px;
+    width: 80px;
+    border-radius: 8px;
 }
 
 .title{
