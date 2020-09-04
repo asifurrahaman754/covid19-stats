@@ -47,7 +47,6 @@ header{
 .logo{
     display: flex;
     align-items: center;
-    padding-left: 20px;
 }
 .logo img{
     width: 60px;
@@ -68,6 +67,7 @@ main{
     width: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)) ,url('../img/bg.jpg');
     background-size: cover;
+    height: calc(100vh - 160px);
 }
 /* -------- LATEST REPORT -------- */
 .latest-report{
