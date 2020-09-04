@@ -87,6 +87,7 @@ main{
 .recovered,
 .deaths{
     height: 100px;
+    margin-bottom: 20px;
 }
 
 .name{
