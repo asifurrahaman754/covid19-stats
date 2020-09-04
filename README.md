@@ -1,5 +1,5 @@
 # Covid19-Stats
-I have used a api called "Covid Monitor" form rapid API 
+I have used a api called "Covid Monitor" form rapid API marketplace.
 The api is given below :
 
 https://coronavirus-monitor.p.rapidapi.com/coronavirus/latest_stat_by_country.php?country=country
