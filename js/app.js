@@ -40,6 +40,9 @@ function fetchData(user_country){
 	.catch(err => {
 		console.log(err)
 	})
+
+	//when user selects a counry the box hide itself
+	search_country.classList.add('hide');
 }
 fetchData(user_country)
 
